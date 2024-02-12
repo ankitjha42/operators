@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(assets/pexels-lumn-167682.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+.main{
+  border: 2px solid;
+  height: 650px;
+  width: 1000px;
+  position: absolute;
+  top: 45px;
+  text-align: center;
+  background-color:rgb(184, 184, 184) ;
+  position:relative;
+  
+}
+.main-content{
+  margin-top: 25px;
+  color: rgb(147, 83, 9);
+  font-size: x-large;
+}
+.btn{
+  font-size: x-large;
+  margin-top: 15px;
+  background-color: rgb(19, 9, 221);
+  transition: 100ms;
+  border-radius: 5px;
+}
+.btn:hover{
+  color: white;
+}
+#result {
+  margin-top: 15px;
+  font-size: 25px;
+  color: rgb(17, 10, 236);
+}
+h3{
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(135deg,red,green ,purple);
+  color: white;
+}
